@@ -297,18 +297,14 @@
         align-items: center;
         margin-left: 30px;
     }
-    
-    .close-search-btn {
-        display: none;
-    }
-    
-    .rools .auto-search {
-        margin-left: 65px;
-    }
-    
+
     html[dir=ltr] .rools .auto-search {
         margin-left: 0;
         margin-right: 30px;
+    }
+
+    .close-search-btn {
+        display: none;
     }
     
     .auto-search .all-cats .btn-default {
