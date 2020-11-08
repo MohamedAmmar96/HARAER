@@ -329,21 +329,21 @@
         }
         .mo-tabs {
             width: 100%;
-            justify-content: center;
+            /* justify-content: center; */
             margin-bottom: 30px;
             /* margin-left: auto;
             margin-right: auto; */
-            /* overflow-x: auto; */
+            overflow-x: auto;
         }
         .mo-tabs .mo-tabs-li {
-            margin-left: 15px;
+            margin-left: 20px;
         }
         html[dir=ltr] .mo-tabs .mo-tabs-li {
             margin-left: 0;
-            margin-right: 15px;
+            margin-right: 20px;
         }
         .mo-tabs-li .mo-tabs-link {
-            font-size: 17px;
+            white-space: nowrap;
         }
         .watch .watch-link {
             width: 30px;
@@ -506,16 +506,6 @@
             margin-left: 5px;
         }
         /*** Quick View End ***/
-        .abaya .abaya-content {
-            width: 210px;
-            height: 210px;
-        }
-        .abaya-content .abaya-name {
-            font-size: 36px;
-        }
-        .abaya-content .abaya-color {
-            font-size: 27px;
-        }
         .footer {
             padding-top: 50px;
         }
@@ -599,29 +589,9 @@
         .auto-search .search-box {
             width: 325px;
         }
-        .mo-tabs .mo-tabs-li {
-            margin-left: 10px;
-        }
-        html[dir=ltr] .mo-tabs .mo-tabs-li {
-            margin-left: 0;
-            margin-right: 10px;
-        }
-        .mo-tabs-li .mo-tabs-link {
-            font-size: 13px;
-        }
         .item-content .item-name {
             font-size: 13px;
             height: 50px;
-        }
-        .abaya .abaya-content {
-            width: 150px;
-            height: 150px;
-        }
-        .abaya-content .abaya-name {
-            font-size: 28px;
-        }
-        .abaya-content .abaya-color {
-            font-size: 20px;
         }
         .footer-top .one .footer-heading {
             margin-right: 20px;
@@ -718,6 +688,7 @@
             width: 80px;
             height: 30px;
             font-size: 10px;
+            padding: 0 5px;
         }
         .item-view-tools .more-details .arrow {
             margin-right: 5px;
@@ -1065,17 +1036,10 @@
             margin-bottom: 30px;
             /* margin-left: auto;
             margin-right: auto; */
-            /* overflow-x: auto; */
-        }
-        .mo-tabs .mo-tabs-li {
-            margin-left: 20px;
-        }
-        html[dir=ltr] .mo-tabs .mo-tabs-li {
-            margin-left: 0;
-            margin-right: 20px;
+            overflow-x: auto;
         }
         .mo-tabs-li .mo-tabs-link {
-            font-size: 20px;
+            white-space: nowrap;
         }
         .watch .watch-link {
             width: 30px;
@@ -1238,16 +1202,6 @@
             margin-left: 5px;
         }
         /*** Quick View End ***/
-        .abaya .abaya-content {
-            width: 210px;
-            height: 210px;
-        }
-        .abaya-content .abaya-name {
-            font-size: 36px;
-        }
-        .abaya-content .abaya-color {
-            font-size: 27px;
-        }
         .footer {
             padding-top: 50px;
         }

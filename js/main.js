@@ -200,7 +200,7 @@ $(document).ready(function() {
                 loop: true
             },
             500: {
-                items: 2,
+                items: 3,
                 dots: true,
                 nav: false,
                 loop: true
