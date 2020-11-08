@@ -335,6 +335,9 @@
             margin-right: auto; */
             overflow-x: auto;
         }
+        .mo-tabs::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
         .mo-tabs .mo-tabs-li {
             margin-left: 20px;
         }
